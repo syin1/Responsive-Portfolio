@@ -170,7 +170,7 @@ footer {
   border-top: 5px solid #4aaaa5;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
   .headercontent {
     width: 100%;
   }
@@ -189,6 +189,24 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .headercontent {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .portfoliocontainer1,
+  .portfoliocontainer2,
+  .portfoliocontainer3,
+  .portfoliocontainer4,
+  .portfoliocontainer5 {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .headercontent {
     width: 100%;
   }
