@@ -31,9 +31,6 @@ header {
   margin-left: auto;
   margin-right: auto;
   background: #ffffff;
-  /* border: 1px solid #cccccc; */
-  /* border: 10px solid purple; */
-  /* margin-bottom: 20px; */
 }
 
 h1 {
@@ -50,14 +47,12 @@ h1 {
   width: 200px;
   text-align: center;
   float: left;
-  /* border: 5px solid blue; */
   margin-bottom: 0;
 }
 
 nav {
   margin-top: 20px;
   float: right;
-  /* border: 5px solid black; */
 }
 
 header::after {
@@ -73,8 +68,6 @@ header::after {
   background: #ffffff;
   margin-left: auto;
   margin-right: auto;
-  /* border-color: #dddddd; */
-  /* border: 5px solid black; */
   padding: 20px;
 }
 
@@ -141,9 +134,16 @@ p {
   text-align: center;
   color: white;
   width: 400px;
-  /* border: 5px solid blue; */
   float: left;
   margin: 20px;
+}
+
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio5 {
+  width: 100%;
 }
 
 .pname1,
@@ -154,7 +154,6 @@ p {
   position: absolute;
   bottom: 20%;
   left: 0;
-  /* transform: translate(-50%, -50%); */
   background-color: #4aaaa5;
   color: white;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -169,4 +168,40 @@ footer {
   background: #666666;
   margin-bottom: 0;
   border-top: 5px solid #4aaaa5;
+}
+
+@media screen and (max-width: 992px) {
+  .headercontent {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .portfoliocontainer1,
+  .portfoliocontainer2,
+  .portfoliocontainer3,
+  .portfoliocontainer4,
+  .portfoliocontainer5 {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headercontent {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .portfoliocontainer1,
+  .portfoliocontainer2,
+  .portfoliocontainer3,
+  .portfoliocontainer4,
+  .portfoliocontainer5 {
+    width: 85%;
+  }
 }
